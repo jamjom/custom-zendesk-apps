@@ -1,0 +1,30 @@
+<div class="page-header">
+  <div class="calendar">
+    <h5> Image Date 
+      <input class="image-datepicker"  type="text" value="{{date}}"/>
+    </h5>
+  </div>
+</div>
+
+<div class="image-data">
+  <h5>{{title}}</h5>
+  <img class="thumbnail" src="{{url}}"/>
+</div>
+
+<div class="image-modal">
+  <div class="bg"></div>
+  <div class="container">
+  <div class="image-container">
+    <img class="full-image" src="{{url}}"/>
+    <div class="image-information">
+      <h3>{{title}}</h3>
+      <div class="explanation">
+        <h4>Explanation:</h4>
+        {{explanation}}
+      </div>
+      <button class="btn btn-primary" id="close-btn" type="button">Close</button>
+    </div>
+    </div>
+  </div>
+</div>
+

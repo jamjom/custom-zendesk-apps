@@ -1,0 +1,96 @@
+ul {
+  margin-left: 0px !important;
+}
+
+#conditional-header {
+  float: left;
+  margin-top: 10px;
+  background-image: -webkit-linear-gradient(90deg, #DEDEDE 0%, #FDFDFD 100%);
+  background-image: -moz-linear-gradient(90deg, #DEDEDE 0%, #FDFDFD 100%);
+  background-image: -ms-linear-gradient(90deg, #DEDEDE 0%, #FDFDFD 100%);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 14px;
+  height: 36px;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.con-divider {
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+
+#opt-container {
+  border: 1px solid #ddd;
+  height: 450px;
+  overflow: auto;
+}
+
+.dropdown-field {
+  margin-top: 2px !important;
+  margin-bottom: 20px !important;
+}
+
+.field-options, #dropdown-options {
+  margin-left: -12px !important;
+}
+
+ul#ticket-fields-list li, ul#ticket-field-options li {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.dropdown-field li {
+  padding-left: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+ul#ticket-fields-list li:first-child, ul#ticket-field-options li:first-child, .dropdown-field li:first-child {
+  border-left: 1px solid #dddddd !important;
+  border-top: 0px !important;
+}
+
+li.selected {
+  font-weight: bold;
+  background-color: #F7F7F7;
+}
+
+.ticket-field-options {
+  margin-left: -10px !important;
+}
+
+.options-title {
+  text-transform: uppercase;
+}
+
+.con-hierarchy {
+  padding-left: 10px;
+}
+
+#selected-dropdown-options h4, #selected-dropdown-options h5, li.con-hierarchy {
+  text-transform: capitalize;
+}
+
+#selected-dropdown-options i, #selected-dropdown-options i, .con-hierarchy i {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#selected-dropdown-options h4, #selected-dropdown-options h5, .con-hierarchy h6 {
+  display: inline-block;
+}
+
+.condition-group {
+  margin-bottom: 10px;
+}

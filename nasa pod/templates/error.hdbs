@@ -1,0 +1,12 @@
+<div class="page-header">
+  <div class="calendar">
+    <h5> Image Date:  
+      <input class="image-datepicker"  type="text" value="{{date}}"/>
+    </h5>
+  </div>
+</div>
+
+<div class="alert alert-error">
+  <h5>Error:</h5>
+  {{error}}
+</div>

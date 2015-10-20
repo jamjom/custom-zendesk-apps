@@ -1,0 +1,10 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main></section>
+<footer>
+  <a href="mailto:{{author.email}}">
+    Test app of {{author.name}}
+  </a>
+</footer>

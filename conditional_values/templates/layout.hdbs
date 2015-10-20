@@ -1,0 +1,68 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main>
+  <div class="row-fluid">
+    <div class="span3">
+      <div id="forms-container">
+        <h3>Ticket Form</h3>
+        <select name="conditional-ticket-forms" id="ticket-forms-collection">
+          <option value="-">-</option>
+        </select>
+      </div>
+
+      <hr/>
+      <h3>Conditions</h3>
+      <hr/>
+      <div id="selected-dropdown-options">
+        <ul id="selected-values">
+        </ul>
+      </div>
+    </div>
+
+    <div class="span9">
+      <div class="row-fluid">
+        <div class="row-fluid">
+          <h3>Manage conditions</h3>
+        </div>
+        <div class="row-fluid" id="conditional-header">
+          <div class="span4">
+            Dropdowns
+          </div>
+          <div class="span4">
+            Options
+          </div>
+          <div class="span4">
+            Selected Options
+          </div>
+        </div>
+      </div>
+
+      <div class="row-fluid" id="opt-container">
+        <div class="span4 con-divider">
+          <div class="ticket-fields">
+            <ul id="ticket-fields-list">
+            </ul>
+          </div>
+        </div>
+        <div class="span4 con-divider">
+          <div class="field-options">
+            <ul id="ticket-field-options">
+            </ul>
+          </div>
+        </div>
+        <div class="span4 con-divider">
+          <div id="dropdown-options">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer>
+  <a href="mailto:{{author.email}}">
+    {{author.name}}
+  </a>
+</footer>
